@@ -3,7 +3,7 @@
 import os
 
 # Get the list of all files and directories
-path = "/home/jenkins/agent"
+path = os.getcwd()
 dir_list = os.listdir(path)
 
 print("Files and directories in '", path, "' :")
